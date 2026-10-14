@@ -2,14 +2,14 @@ import os, requests, feedparser
 from urllib.parse import quote
 
 SPOLKI = {
-    "DIG.PL": "Digital Network",
-    "XTB.PL": "XTB",
-    "LPP.PL": "LPP",
-    "SNT.PL": "Synektik",
-    "DIA.PL": "Diagnostyka SA",
-    "CBF.PL": "Cyber_Folks",
-    "SGN.PL": "Sygnity SA",
-    "SEV.PL": "Sevenet SA",
+    "DIG": "Digital Network",
+    "XTB": "XTB",
+    "LPP": "LPP",
+    "SNT": "Synektik",
+    "DIA": "Diagnostyka SA",
+    "CBF": "Cyber_Folks",
+    "SGN": "Sygnity SA",
+    "SEV": "Sevenet SA",
     # dodaj swoje: "skrót": "fraza do wyszukiwania"
 }
 
