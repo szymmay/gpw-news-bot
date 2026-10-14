@@ -24,7 +24,7 @@ def streszczenie(tekst):
         "Niczego nie wymyślaj, opieraj się tylko na nagłówkach.\n\n" + tekst
     )
     r = requests.post(
-        "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent",
+        "https://generativelanguage.googleapis.com/v1beta/models/gemini-3.8-flash:generateContent",
         params={"key": os.environ["GEMINI_API_KEY"]},
         json={"contents": [{"parts": [{"text": prompt}]}]},
         timeout=60,
