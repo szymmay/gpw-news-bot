@@ -2,9 +2,14 @@ import os, requests, feedparser
 from urllib.parse import quote
 
 SPOLKI = {
-    "PKO BP": "PKO Bank Polski",
-    "Orlen": "Orlen",
-    "CD Projekt": "CD Projekt",
+    "DIG.PL": "Digital Network",
+    "XTB.PL": "XTB",
+    "LPP.PL": "LPP",
+    "SNT.PL": "Synektik",
+    "DIA.PL": "Diagnostyka SA",
+    "CBF.PL": "Cyber_Folks",
+    "SGN.PL": "Sygnity SA",
+    "SEV.PL": "Sevenet SA",
     # dodaj swoje: "skrót": "fraza do wyszukiwania"
 }
 
