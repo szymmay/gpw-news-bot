@@ -1,7 +1,7 @@
 name: daily-news
 on:
   schedule:
-    - cron: "40 6 * * 1-5"   # 08:40 czasu polskiego latem (CEST)
+    - cron: "43 6 * * 1-5"   # 08:40 czasu polskiego latem (CEST)
   workflow_dispatch:           # przycisk do ręcznego uruchomienia
 jobs:
   run:
